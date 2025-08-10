@@ -1,0 +1,41 @@
+{
+  "name": "invoicymate",
+  "version": "1.0.0",
+  "description": "A Facebook Messenger chatbot for Australian ABN holders to create, manage, and retrieve legally compliant invoices via Messenger. Built with n8n (workflow automation), Node.js (PDFMake for PDF generation), and PostgreSQL (data storage).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matischroder/InvoicyMate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/matischroder/InvoicyMate/issues"
+  },
+  "homepage": "https://github.com/matischroder/InvoicyMate#readme",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.6",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.2.1",
+    "@types/node-telegram-bot-api": "^0.64.10",
+    "@types/pdfmake": "^0.2.11",
+    "@types/pg": "^8.15.5",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "pdfmake": "^0.2.20",
+    "pg": "^8.16.3"
+  }
+}

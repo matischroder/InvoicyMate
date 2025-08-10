@@ -1,0 +1,10 @@
+{
+  "name": "bot-service",
+  "version": "1.0.0",
+  "description": "AI Bot Service for InvoicyMate",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "nodemon --exec ts-node index.ts"
+  }
+}
